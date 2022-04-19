@@ -5,10 +5,24 @@ html, body {
   color: #414141;
   height: 100%;
 }
+
+nav {
+  list-style-type: none;
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+
+
+
+
 nav {
   a {
     text-decoration: none;
     color: #414141;
+
+
   }
 }
 .hero {
@@ -16,9 +30,15 @@ nav {
   padding: 2em;
   margin: 1em 0;
   min-height: 400px;
+  display:flex;
+
+
 }
 .hero-content {
   display: flex;
+  justify-content:center;
+  align-items: center;
+  flex-direction: column;
 }
 .main-container {
   background: rgb(238, 238, 238);
