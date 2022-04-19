@@ -48,6 +48,11 @@ nav a {
           flex-direction: column;
 }
 
+.hero-content h1 {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
 .main-container {
   background: #eeeeee;
   padding: 2em;
