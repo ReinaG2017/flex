@@ -1,3 +1,9 @@
+@media only screen and (max-width: 767px) {
+  
+}
+
+
+
 html, body {
   background: #d5d5d5;
   font-family: sans-serif;
@@ -39,18 +45,10 @@ nav a {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-}
-
-.hero-content h1 {
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
 }
 
 .main-container {
@@ -75,5 +73,15 @@ nav a {
   background: navy;
   color: white;
   padding: 2em;
+}
+
+.sidebar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.h3 ul {
+  background-color: white;
 }
 /*# sourceMappingURL=main.css.map */

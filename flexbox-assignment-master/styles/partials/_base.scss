@@ -39,15 +39,11 @@ nav {
 
 
 
-}
+
 .hero-content {
   display: flex;
   justify-content:center;
   flex-direction: column;
-}
-
-
-
 }
 .main-container {
   background: rgb(238, 238, 238);
@@ -71,3 +67,10 @@ nav {
 }
 
 
+.sidebar {
+ display: flex;
+}
+
+.h3 ul {
+  background-color: white;
+}
