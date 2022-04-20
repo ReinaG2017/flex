@@ -81,4 +81,51 @@ nav a {
 .h3 ul {
   background-color: white;
 }
+
+
+
+
+ 
+
+
+ @media screen and (min-width: 1024px) {
+ .main-container {
+   display: flex;
+flex: 50%;
+flex-basis: auto;
+ }
+}
+
+@media screen and (min-width: 1024px) {
+  .post{
+    flex-grow: 1;
+  }
+ }
+
+ @media screen and (min-width: 1024px) {
+  .sidebar{
+    flex-grow: 1;
+  }
+ }
+
+@media screen and (min-width: 1024px) {
+  .mixed-layout {
+    display: flex;
+  }
+ }
+ @media screen and (min-width: 1024px) {
+  .first {
+    flex-grow: 1;
+  }
+ }
+
+ @media screen and (min-width: 1024px) {
+  .second {
+    flex-grow: 1;
+  }
+ }
+
+
+
+
 /*# sourceMappingURL=main.css.map */
